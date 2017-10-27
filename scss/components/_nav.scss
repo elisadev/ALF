@@ -1,0 +1,38 @@
+// ======================================
+//  Nav Styles
+// ======================================
+
+
+nav {
+	font-family: $font-stack-primary;
+	background-color: $white;
+	display: block;
+	width: auto;
+	padding: 0 15px;
+	position: relative;
+	z-index: 800;  
+}
+
+.navBar {
+	margin-top: 1em;
+	li {
+		padding: 8px 16px;    
+	}
+	a {
+		text-decoration: none;
+		transition: 0.3s;
+        color: $color-tertiary;      
+	}
+}
+
+ul {
+	list-style-type: none;
+	.navBar li a {
+		list-style-type: none; 
+	}
+}
+
+#home.big-padding {
+	padding: 160px 0;
+}
+

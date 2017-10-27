@@ -1,0 +1,46 @@
+// ======================================
+//  Base Styles
+// ======================================
+
+
+* {box-sizing: border-box;}
+
+body {
+	color: $color-primary;
+	font-size: 1rem;
+	line-height: 1.5;
+	font-family: $font-stack-primary;
+}
+
+
+.bigTitle{
+	color: $white;
+	font-size: $font-bigTitle-size;
+	font-family: $font-stack-secondary;
+	text-align: center;
+}
+
+.sect-title {
+	color: $color-secondary;
+	font-size: 1.3rem;
+	text-align: center;
+}
+
+.lamAnimal {
+	height: 140px;
+	width: 140px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	margin:  -60px auto;
+	position: relative;
+	z-index: 100;
+	text-align: center;
+	display: block;
+}
+
+
+@media only screen and  (max-width: 570px) {
+    .lamAnimal {
+        display: none;
+        }
+}

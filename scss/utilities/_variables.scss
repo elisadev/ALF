@@ -1,0 +1,29 @@
+// ======================================
+//  VARIABLES
+// ======================================
+
+// Colors
+$color-primary: #138179;
+$color-secondary: #EE641C;
+$color-tertiary: #12B886;
+
+$white: #fff;
+
+
+
+// Fonts
+$font-bigTitle-size: 56px;
+$font-stack-primary: 'Raleway', sans-serif;
+$font-stack-secondary: 'Bree Serif', sans-serif;
+
+// Layout 
+$max-width: 1000px;
+$gutter: 10px;
+
+// Breakpoints
+$breakpoints: (
+	'xs': 575px,
+	'sm': 576px,
+	'med': 768px,
+	'lg': 992px,
+);
